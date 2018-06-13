@@ -1,0 +1,131 @@
+/* ----------------------------------------------Forms-------------------------------------*/
+
+#content-area form, #content-area fieldset, #content-area legend{margin:0; padding:0; border:none;}
+#content-area legend{display:none;}
+#content-area input,#content-area label, #content-area textarea, #content-area select{font-size:13px; font-family:Verdana, Arial, Helvetica, sans-serif;}
+
+#content-area label{
+	/*display:inline;*/
+	min-width:250px;
+	margin:0 0 12px 0;
+	padding:0;
+	}
+
+input[type='text'], input[type='password']
+{
+	/*display:block;*/
+	width:500px;
+	height:40px;
+	margin:5px 0;
+	padding:3px;
+	color:#333333;
+	background-color:#F8F7DF;
+	border:1px solid #CCCCCC;
+	box-shadow: 1px 1px 5px #CCC;
+}
+select{
+	width:500px;
+	height:40px;
+	margin:5px 0;
+	padding:3px;
+	color:#333333;
+	background-color:#F8F7DF;
+	border:1px solid #CCCCCC;
+	box-shadow: 1px 1px 5px #CCC;
+}
+textarea{
+	width:500px;
+	height:100px;
+	margin:5px 0;
+	padding:3px;
+	color:#333333;
+	background-color:#F8F7DF;
+	border:1px solid #CCCCCC;
+	box-shadow: 1px 1px 5px #CCC;
+}
+input[type='submit'], input[type='reset']
+{
+	width:100px;
+	height:40px;
+	margin:0px 0px 0px 0px;
+	box-shadow: 1px 1px 5px #CCC;
+}
+#content-area label input.checkbox{
+	display:inline;
+	width:auto;
+	margin:0 5px 0 0;
+	padding:0;
+} 
+/* Tables */
+.gridtable{
+	width:100%;
+	border-collapse:collapse;
+	table-layout:auto;
+	vertical-align:top;
+	margin-bottom:15px;
+	border:1px solid #CCCCCC;
+	}
+
+.gridtable thead th{
+	color:#FFFFFF;
+	background-color:#666666;
+	border:1px solid #CCCCCC;
+	border-collapse:collapse;
+	text-align:center;
+	table-layout:auto;
+	vertical-align:middle;
+	}
+.gridtable tbody td#last{
+	text-align:center;
+}
+.gridtable tbody td{
+	vertical-align:top;
+	border-collapse:collapse;
+	border-left:1px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+	}
+	
+.gridtable thead th, .gridtable tbody td{
+	padding:5px;
+	border-collapse:collapse;
+	}
+
+.gridtable tbody tr.light{
+	color:#666666;
+	background-color:#F7F7F7;
+	}
+
+.gridtable tbody tr.dark{
+	color:#666666;
+	background-color:#E8E8E8;
+	}
+/*Limk*/
+.side-bar-link {
+	background:#E9967A;
+	width:350px;
+	height:80px;
+	display:inline-block;
+	text-decoration:none;
+	font-size:25px;
+	color:#182125;
+	border:1px solid #c6cacc;
+	line-height:40px;
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	position:relative;
+
+}
+.side-bar-link span{
+	padding:20px 0px 0px 20px;
+	display:block;
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	position:relative;
+}
+
+.side-bar-link:hover {
+	background:#b2e1ff;
+	color:#fff;
+}

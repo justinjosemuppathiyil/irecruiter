@@ -1,0 +1,104 @@
+/*
+Template Name: School Education
+File: LoginSlider CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+
+Inspired By: Sliding Login Panel with jQuery from http://web-kreation.com/index.php/tutorials/nice-clean-sliding-login-panel-built-with-jquery/
+*/
+
+#topbar{
+	position:relative;
+	margin:0 auto 0;
+	display:block;
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	}
+
+#topbar a{
+	color:#02ACEE;
+	background-color:#4A5155;
+	}
+
+#topbar a:hover{
+	color:#FFFFFF;
+	background-color:#4A5155;
+	}
+
+#slidepanel{
+	display:none;
+	position:relative;
+	overflow:hidden;
+	color:#E3DFD2;
+	background:url("../images/tab_l.gif") bottom left no-repeat #4A5155;
+	}
+
+/* ----------------------------------------------Content-------------------------------------*/
+
+#topbar .topbox{
+	/*display:block;*/
+	float:left;
+	width:100%;
+	margin:0 30px 0 0;
+	padding:10px 5px 0px 10px;
+	}
+
+#topbar .last{
+	margin-right:0;
+	}
+
+#topbar h1, #topbar h2, #topbar h3, #topbar h4, #topbar h5, #topbar h6{
+	font-size:18px;
+	margin:0 0 15px 0;
+	padding:0 0 8px 0;
+	border-bottom:1px dotted #E7E6E6;
+	color:white;
+	}
+
+#topbar p{
+	/*margin:0 0 15px 0;*/
+	float:right;
+	margin-right:12px;
+	padding:0;
+	line-height:1.6em;
+	}
+
+
+/* ----------------------------------------------Forms-------------------------------------*/
+
+#topbar form, #topbar fieldset, #topbar legend{margin:0; padding:0; border:none;}
+#topbar legend{display:none;}
+#topbar input, #topbar textarea, #topbar select{font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif;}
+
+#topbar label{
+	/*display:inline;*/
+	width:270px;
+	margin:0 0 12px 0;
+	padding:0;
+	}
+
+#topbar label input{
+	/*display:block;*/
+	width:262px;
+	margin:5px 0;
+	padding:3px;
+	color:#333333;
+	background-color:#F8F7DF;
+	border:1px solid #CCCCCC;
+	}
+
+#topbar .topbox p input{
+	padding:3px 10px;
+	color:#666666;
+	background-color:#F7F7F7;
+	border:1px solid #CCCCCC;
+	cursor:pointer;
+	}
+
+#topbar label input.checkbox{
+	display:inline;
+	width:auto;
+	margin:0 5px 0 0;
+	padding:0;
+	} 
